@@ -1,0 +1,46 @@
+baseURL: http://blog.apicici.com
+languageCode: en-ca
+title: Assorted cables and wires
+theme: PaperMod
+
+params:
+    env: production
+
+    assets:
+        disableHLJS: true
+        
+    defaultTheme: dark
+        
+    homeInfoParams:
+        Title: "Hello there"
+        Content: >
+          Welcome to my blog!
+
+
+          I've been dabbling in game development as an hobby in the past couple of years.
+          I built a point & click adventure game engine using [LÖVE](https://love2d.org/) and made [two short games with it](https://apicici.itch.io),
+          and I'm currently working on making a revised game engine from scratch in C++.
+
+
+          I plan to use this blog as my "box of assorted cables and wires" (hence the name) where I write about various things that I learn how to do
+          as I work on my engine and games, both as a way of remembering how they work when I inevitably forget and to share them with other people who may
+          be trying to solve the same problems. 
+        
+    socialIcons:
+        - name: mastodon
+          url: "https://mastodon.gamedev.place/@apicici"
+        - name: itchio
+          url: "https://apicici.itch.io"
+        - name: github
+          url: "https://github.com/apicici"
+
+markup:
+    highlight:
+        lineNos: true
+        style: dracula
+
+permalinks:
+    posts: /posts/:year/:month/:slug/
+
+
+

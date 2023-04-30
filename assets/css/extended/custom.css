@@ -1,0 +1,21 @@
+:root {
+    --hljs-bg: unset;
+}
+
+.dark {
+    --hljs-bg: unset;
+}
+
+
+.post-content a, .social-icons a {
+    transition: color 0.3s;
+}
+
+.post-content a:hover, .social-icons a:hover {
+    color: #9381cd;
+}
+
+.entry-content p {
+    margin: 8px 0;
+}
+
