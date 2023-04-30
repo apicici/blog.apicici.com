@@ -7,11 +7,11 @@
 }
 
 
-.post-content a, .social-icons a {
+.post-content a, .social-icons a, .entry-content a {
     transition: color 0.3s;
 }
 
-.post-content a:hover, .social-icons a:hover {
+.post-content a:hover, .social-icons a:hover, .entry-content a:hover {
     color: #9381cd;
 }
 
